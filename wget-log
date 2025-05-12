@@ -1,0 +1,31 @@
+--2025-05-12 13:08:49--  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.keyecho
+Résolution de pkg.jenkins.io (pkg.jenkins.io)… 151.101.66.133, 151.101.2.133, 151.101.130.133, ...
+Connexion à pkg.jenkins.io (pkg.jenkins.io)|151.101.66.133|:443… connecté.
+requête HTTP transmise, en attente de la réponse… 404 Not Found
+2025-05-12 13:08:49 erreur 404 : Not Found.
+
+Avertissement : les jokers ne sont pas permis en HTTP.
+--2025-05-12 13:08:49--  http://deb%20%5Bsigned-by=/etc/apt/keyrings/jenkins-keyring.asc]
+Résolution de deb [signed-by= (deb [signed-by=)… échec : Nom ou service inconnu.
+wget : impossible de résoudre l’adresse de l’hôte ‘deb [signed-by=’
+--2025-05-12 13:08:49--  https://pkg.jenkins.io/debian-stable
+Réutilisation de la connexion existante à pkg.jenkins.io:443.
+requête HTTP transmise, en attente de la réponse… 301 Moved Permanently
+Emplacement : https://pkg.origin.jenkins.io/debian-stable/ [suivant]
+--2025-05-12 13:08:50--  https://pkg.origin.jenkins.io/debian-stable/
+Résolution de pkg.origin.jenkins.io (pkg.origin.jenkins.io)… 52.202.51.185
+Connexion à pkg.origin.jenkins.io (pkg.origin.jenkins.io)|52.202.51.185|:443… connecté.
+requête HTTP transmise, en attente de la réponse… 200 OK
+Taille : 6773 (6,6K) [text/html]
+Enregistre : ‘/etc/apt/keyrings/jenkins-keyring.asc’
+
+               /etc/apt/keyri   0%[                                                  ]       0  --.-KB/s               /etc/apt/keyrings/jenkins-key 100%[=================================================>]   6,61K  --.-KB/s    ds 0s      
+
+2025-05-12 13:08:51 (263 MB/s) - ‘/etc/apt/keyrings/jenkins-keyring.asc’ enregistré [6773/6773]
+
+--2025-05-12 13:08:51--  http://binary/
+Résolution de binary (binary)… échec : Échec temporaire dans la résolution du nom.
+wget : impossible de résoudre l’adresse de l’hôte ‘binary’
+Terminé — 2025-05-12 13:08:51 —
+Temps total effectif : 1,8s
+Téléchargés : 1 fichiers, 6,6K en 0s (263 MB/s)
